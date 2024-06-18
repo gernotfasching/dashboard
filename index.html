@@ -53,33 +53,26 @@
     </div>
     <div id="chartContainer"></div>
     <div class="infodiv">
-        <p>Currently the data is fetched from the location of the inner city of graz</p>
-    </div><div class="jumbotron text-center">
-        <h1>My First Bootstrap Page</h1>
-        <p>Resize this responsive page to see the effect!</p> 
-      </div>
-        
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-4">
-            <h3>Column 1</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-          </div>
-          <div class="col-sm-4">
-            <h3>Column 2</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-          </div>
-          <div class="col-sm-4">
-            <h3>Column 3</h3>        
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-          </div>
-        </div>
-      </div>
-    
+        <p id="cityInfo">Currently the data is fetched from the location of the inner city of Graz</p>
+    </div>
+
+    <div class="container">
+        <h2>Average Temperature for the Last 7 Days</h2>
+        <table class="table table-striped" id="temperatureTable">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Average Temperature (°C)</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+
     <script src="js/dashboard.js"></script>
+    <script src="js/table.js"></script>
+    <script src="js/cityselect.js"></script>
 </body>
 
 </html>

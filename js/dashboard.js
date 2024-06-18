@@ -47,7 +47,7 @@ $(document).ready(() => {
         let fromTime = new Date($("#fromTime").val()).toISOString();
         let toTime = new Date($("#toTime").val()).toISOString();
         let dataUrl = `https://dataset.api.hub.geosphere.at/v1/timeseries/historical/inca-v1-1h-1km?parameters=${selectedParam}&start=${fromTime}&end=${toTime}&lat_lon=${lat},${long}&output_format=geojson`;
-
+        console.log(dataUrl);
         axios.get(dataUrl)
             .then((response) => {
                 console.log(response);
