@@ -1,0 +1,67 @@
+/* Body styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Light gray background for the body */
+    color: #333; /* Dark gray text color for the body */
+}
+
+/* Heading styles */
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    background-image: linear-gradient(to bottom, red 0%,red 32%,white 33%,white 66%,red 67%,red 67%,red 100%);
+    color: black;
+    margin: 0;
+    padding: 20px 0;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkgray; /* Dark gray background for the navbar */
+    padding: 10px;
+    color: white; /* White text color for the navbar */
+}
+
+/* Chart container styles */
+#chartContainer {
+    margin-top: 20px;
+    width: 100%;
+    height: 400px;
+}
+
+/* Input, select, and button styles within navbar */
+.navbar input,
+.navbar select,
+.navbar button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+/* Button styles */
+.navbar button {
+    background-color: #007BFF; /* Blue background for the button */
+    color: white; /* White text color for the button */
+    cursor: pointer;
+}
+
+.navbar button:hover {
+    background-color: #0056b3; /* Darker blue background on hover */
+}
+#infodiv {
+    margin: 0;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.infodiv p {
+    text-align: center;
+}
